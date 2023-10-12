@@ -1,0 +1,268 @@
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+    
+.first{
+    padding:50px;
+    background-image: linear-gradient(#87CEEB,#6699CC);
+    text-align: center;
+    margin:3px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  
+}
+li {
+  float: right;
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+
+  
+}
+.brand{
+  position:relative;
+  height:700px;
+  padding-bottom:70px;
+}
+.div1 {
+  background: url(4a705e028bb9f5d50995e68c791fb10a.gif) no-repeat center; 
+  background-size: cover;
+  height:75%;
+  position:relative;
+ text-align: right;
+    
+}
+.article-container {
+    position:absolute;
+    width:100%;
+    height:120px;
+    display: grid;
+    grid-template-columns: repeat(3,240px);
+    justify-content: center;
+    margin-top:450px;
+   
+  }
+  
+  .motto1 {
+    background-color:burlywood;
+    padding:30px;
+    text-align: center;
+    font-size:35px;
+    font-family:cursive;
+    
+  }
+.motto2{
+    background-color:chocolate;
+    padding:30px;
+    text-align: center;
+    font-size:34px;
+     font-family:cursive;
+}
+.motto3{
+    background-color: orangered;
+    text-align:center;
+    padding: 30px;
+    font-size:32px;
+     font-family:cursive;
+  
+}
+.writing{
+    text-align: center;
+    position: relative;
+    margin-top:120px;
+   font-size:25px;
+   }
+.imagetxy{
+   
+   
+    font-family:helvetica;
+    font-size:45px;
+    font-weight: bold;
+    background-image: url('9a092860984880a6d3fa3aabf218d5db.jpg');
+    background-size:cover;
+    color:transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    
+     
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: (2,1fr 1fr);
+    grid-template-columns:(auto-fit,minmax(200px,1fr));
+    height:600px;
+    grid-gap:10px;
+    margin:5px;
+    
+    
+   
+}
+.box:first-child{
+    background: url(39e442a569c16db4de28907cc6173951.jpg) no-repeat center; 
+   grid-column-start:1;
+    grid-column-end:1;
+    grid-row-start:1;
+     grid-row-end:2;
+
+    
+}
+
+.box:nth-child(2){
+   background: url(0d647ee08f12f615ff06d184d3d36ce6.jpg) no-repeat center; 
+    grid-column-start:1;
+    grid-column-end:1;
+     grid-row-start:2;
+     grid-row-end:3;
+     text-align: justify;
+}
+.box:nth-child(3){
+    background: url(33695ed04aa6a8a52a9146b8b05ef136.jpg)
+    no-repeat center;
+    grid-row-start:1;
+    grid-row-end:3;
+    grid-column-start:2;
+    grid-column-end:2;
+}
+
+.box:nth-child(4){
+   background: url(506d17f921eaf6b7a058d76ddece6426.jpg)
+    no-repeat center;
+    grid-column-start:3;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:2;
+       margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    
+}
+.box:nth-child(5){
+    background: url(74c5fc81c366ca0ceaab49e00d702ea8.jpg)
+        no-repeat center;
+    grid-column-start:3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:3;
+}
+
+.blogging{
+   
+    color:white;
+    text-align: center;
+   
+    
+    
+}
+
+.coorparation{
+text-align: center;
+
+    
+}
+.insidecorp{
+    
+
+}
+
+.sales{
+    
+   text-align: center;
+   color: white;
+   margin: 10px;
+    
+}
+.portal{
+margin-left: 30px;
+    
+
+    
+}
+.hotels{
+    
+   text-align: center; 
+    margin: 10px;
+}
+.bout{
+    display: flex;
+    position:relative; 
+    justify-content: flex-end;
+    background-color: black;
+}
+.halfbout{ 
+    position:absolute;
+    background-color:saddlebrown;
+    width:45%;
+    height:100%;
+    top:0;
+    left:0;
+    margin-left: 8px;
+  
+}
+.boutimage{
+    position: absolute;
+    top:50%;
+    left:70px;
+    transform:translateY(-50%);
+}
+.bouttext{
+ width:50%;  
+ margin-right:30px;
+ color: white;
+ font-size:25px;
+ text-align: justify;
+}
+.learnmore a{
+    color:floralwhite;
+}
+.conclude{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);
+    background-size:400% 400%;
+    animation: gradient 15s ease infinite;
+    
+     
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50% 
+    {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+ a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     margin: 10px;
+}
+
+
+
+
+
+
+
